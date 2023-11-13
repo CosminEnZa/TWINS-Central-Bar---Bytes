@@ -830,6 +830,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClearCounter (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1521252879606265372, guid: 16bee0b13c9a25a4e858da9ac7b123e4,
+        type: 3}
+      propertyPath: tacoPrefab
+      value: 
+      objectReference: {fileID: 9024299939235026694, guid: 5538f23b955ba2442949b4ccf97b1b79,
+        type: 3}
+    - target: {fileID: 1521252879606265372, guid: 16bee0b13c9a25a4e858da9ac7b123e4,
+        type: 3}
+      propertyPath: tomatoPrefab
+      value: 
+      objectReference: {fileID: 9024299939235026694, guid: 5538f23b955ba2442949b4ccf97b1b79,
+        type: 3}
+    - target: {fileID: 1521252879606265372, guid: 16bee0b13c9a25a4e858da9ac7b123e4,
+        type: 3}
+      propertyPath: counterTopPoint
+      value: 
+      objectReference: {fileID: 1972609852}
+    - target: {fileID: 1521252879606265372, guid: 16bee0b13c9a25a4e858da9ac7b123e4,
+        type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 490202b8613338c46988b919224c5a26,
+        type: 2}
     - target: {fileID: 3236515899502099323, guid: 16bee0b13c9a25a4e858da9ac7b123e4,
         type: 3}
       propertyPath: m_IsActive
@@ -885,6 +908,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6105513253781266739, guid: 16bee0b13c9a25a4e858da9ac7b123e4,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9dd2a20229accda4aa34b25d707de03e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -934,6 +962,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1972609852 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6209691119923298950, guid: 16bee0b13c9a25a4e858da9ac7b123e4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1119590792}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2018807031
 GameObject:
   m_ObjectHideFlags: 0
@@ -963,7 +997,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38c413eb0af211d4881a9ebd4797841a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 7
+  moveSpeed: 6
   gameInput: {fileID: 1216907080}
   interactDistance: 0.7
   countersLayerMask:
@@ -1070,6 +1104,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClearCounter
       objectReference: {fileID: 0}
+    - target: {fileID: 1521252879606265372, guid: 16bee0b13c9a25a4e858da9ac7b123e4,
+        type: 3}
+      propertyPath: tacoPrefab
+      value: 
+      objectReference: {fileID: 9024299939235026694, guid: 5538f23b955ba2442949b4ccf97b1b79,
+        type: 3}
     - target: {fileID: 3871506756262328836, guid: 16bee0b13c9a25a4e858da9ac7b123e4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1120,6 +1160,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6105513253781266739, guid: 16bee0b13c9a25a4e858da9ac7b123e4,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9dd2a20229accda4aa34b25d707de03e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
